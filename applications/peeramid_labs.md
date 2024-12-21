@@ -115,7 +115,7 @@ Aivars Smirnovs and Alesya Soboleva have Computer Science degrees.
 
 ### Team Code Repos
 
-- [https://github.com/peeramid\_labs](https://github.com/peeramid_labs)
+- [https://github.com/peeramid-labs](https://github.com/peeramid-labs)
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
