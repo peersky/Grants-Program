@@ -87,7 +87,7 @@ Many proposals face the challenge of low participation and coordination. Accordi
 
 **Similar Projects:**
 
-There are no similar projects in the Substrate/Polkadot/Kusama ecosystem. However, related projects in other ecosystems focus on decentralized governance and cryptographic voting systems. Our research regarding [Conviction voting](https://blog.giveth.io/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) discusses the different aspects of governance processes for implementation to Polkadot. We review the ability for the participants to repeatedly demonstrate their conviction to the same proposal with its changing alternatives and context. This approach may be used to prioritize proposals for voting when origin capacity to process them is limited, and to reflect the conviction of fellowship members.
+There are no similar projects in the Substrate/Polkadot/Kusama ecosystem. However, [related projects in other ecosystems](https://blog.giveth.io/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) focus on decentralized governance and cryptographic voting systems. Our research regarding conviction voting discusses the different aspects of governance processes for implementation to Polkadot. We review the ability for the participants to repeatedly demonstrate their conviction to the same proposal with its changing alternatives and context. This approach may be used to prioritize proposals for voting when origin capacity to process them is limited, and to reflect the conviction of fellowship members.
 
 ## Team :busts\_in\_silhouette:
 
