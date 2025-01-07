@@ -10,23 +10,24 @@
 
 ### Overview
 
-- **Tagline:** Tokenomics research on novel ways to decouple speculative investment from governance power and foster more effective, collusion-resistant, decentralized organizations.  
-- **Description**: This project aims to refine our research on a novel, decentralized protocol for identifying and ranking competence within DAOs. We will explore token engineering and how today's privacy-preserving techniques can address challenges and opportunities within the DAO and Polkadot ecosystem.  
-- **Integration with Substrate/Polkadot/Kusama**: This research will benefit the Polkadot and Kusama ecosystems by providing a deeper understanding of DAO governance challenges and proposing solutions for Substrate-based chains. While not directly implementing a Substrate pallet in this grant, the findings will prepare the way for future integrations.  
-- **Interest:** We are passionate about advancing decentralized governance and empowering communities through robust and transparent decision-making mechanisms. This research aligns with our commitment to building a more equitable and efficient Web3 ecosystem.  
+- **Tagline:** Tokenomics research on novel ways to decouple speculative investments from governance and foster more effective, collusion resistant governance systems relying on a proven and measurable user competence level.  
+- **Description**: This project aims to refine our research on a novel, decentralized protocol for identifying and ranking competence within DAOs. We will explore token engineering and how today's privacy-preserving techniques can address challenges and opportunities within the DAO and Polkadot ecosystem.
+- **Integration with Substrate/Polkadot/Kusama**: This research will focus on the Polkadot and Kusama ecosystems by providing a deeper understanding of DAO governance challenges and propose solutions for Substrate-based chains to enhance the fellowship program. While we will not be directly implementing a Substrate pallet in this grant, the findings will prepare the way for future integrations to deepen the Polkadot governance decentralization and autonomy.
+- **Interest:**: We are passionate about advancing decentralized governance and empowering communities through robust and transparent decision-making mechanisms. This research aligns with our commitment to build a more equitable and efficient Web3 ecosystem.  
 - **Research Type**: This project will result in a refined and expanded research paper, potentially leading to publications in peer-reviewed venues and presentations at relevant conferences.
 
 ### Project Details
 
 **Problems to Investigate**:
 
-- **Limitations of current DAO governance:** Many face challenges with low participation, centralization risks, and the need for more nuanced competence assessment.  
-- **Interoperability in DAOs:** Ability to create autonomous working groups in decentralized manner and analyze trust assumptions for their interactions.  
-- **Challenges and opportunities in the Polkadot ecosystem:** Understanding the governance landscape of Substrate-based chains and identifying areas for improvement.
+- **Limitations of current DAO governance:** In the fast growing ecosystem it might become a struggle for the fellowship to evaluate and manage a high number of contributors effectively. The fact that the fellowship rank upgrades rely on the availability of higher scoring rank holders, which if key stakeholders become unavailable can potentially lead to the risks of fellowship protocol denial of service creating a centralized environment, where a group of individuals are able to influence the projects further development and the risk of lower ranking fellows not being able to grow in a purely equal rank setup. Taking these risks into account, there arises a need to set up a constant flow of new fellowships which are accentuated by their merit. The criteria for ranking and the evaluation process may not always be completely clear to the community and some contributors who make significant progress might remain under-ranked for too long, because there is a difficulty in properly assessing the impact of their contributions or the lack of resources of the higher scoring members. Determining the expertise and contributions of a participant can be subjective and the discrepancies in how contributions are valued may lead to inconsistent rankings, favouring the participants with more established connections in the ecosystem. This is making it harder for some new contributors to present the importance of their work and demonstrate competence in a specific field. 
+Many proposals face the challenge of low participation and coordination. According to [research](https://forum.polkadot.network/t/opengov-report-year-in-review/10426) overviewing the voter participation from June 2023 to September 2024, the monthly average DOT voted per referendum was around 15 000 000 DOT per referendum, which is around 1% of the total supply and the average conviction multiplier in the same period was shown to be just below 3x multiplier. This data represents the total number of votes each month, including reused DOT rather than the unique number of DOT. There is a risk where some fellowship members with higher rankings may become complacent, relying on their status rather than continuing active contributions, highlighting the need for more nuanced competence and contribution assessments in the ecosystem to encourage diversity of merit, rousing innovation.  
+- **Interoperability in DAOs:** This project researches the ability to create autonomous working groups in a decentralized manner and analyze the trust assumptions for their interactions.
+- **Challenges and opportunities in the Polkadot ecosystem:** Understanding the governance landscape of Substrate-based chains and identifying areas for improvement. This would involve focusing on the possibility of creating a consistent flow of fellowship from DOT holders and establishing a pipeline of fellows directed toward specific areas of expertise by a transparent way of merit evaluation, decentralized oversight and active reassessment of contributions. Even when considered outside the context of the fellowship problem, the proposed research can be used to assist DOT holders in identifying competent actors to whom they can delegate their tokens.
 
 **Research Questions/Hypothesis**:
 
-- **Hypothesis 1:** *Governance can be decoupled from speculative component (Sub-linear governance power dependency from capital input)*  
+- **Hypothesis 1:** *Governance can be decoupled from the speculative component (Sub-linear governance power dependency from capital input)*  
 - **Hypothesis 2:** *Existing cryptography and privacy-preserving features may improve governance processes.*  
 - **Hypothesis 3:** *The current governance state is susceptible to speculations and has low participation rates and quorum thresholds.*  
 - **Hypothesis 4:** *Designing merit-oriented protocols can improve participation rates.*
@@ -35,14 +36,17 @@
 
 - Review literature and research on novel voting systems.  
 - Propose a system to decouple token utility from governance without affecting established structures.  
-- Run a community survey for feedback on the likelihood of using the technology.  
+- Gather statistics on the activity and potential centralization of the fellowship. 
 - Publish results as a paper & dataset for any analytics.
 
 **Data Collection and Analysis Procedures**:
 
 - Analyze existing research on decentralized governance.  
-- Gather and analyze data from the Polkadot community, including opinions of stakeholders, vendors, DOT holders, and builders. This will involve surveys on the Polkadot forum, Telegram groups, and Twitter polls, as well as outreach to key stakeholders and vendors.  
+- Gather and analyze data of the activity from the members of the fellowship program and acquire statistics of centralization risks.  
 - Create financial models and run game theoretic analysis. Game theoretic models will assess collusion potential and identify strategies to mitigate risks.
+- Collect and document ledgers and data footprint produced by the technical fellowship.
+- Collect and organize data produced by technical fellowship, including the amount of new fellows inflow since 2022.
+- Prepare statistical analysis of the fellowship program: inflow and outflow of participants, average proposing and voting activity, rank growth speed.
 
 **Expected Results:**
 
@@ -71,7 +75,9 @@
 
 **Fit into the Ecosystem:**
 
-- The project enhances governance mechanisms in Substrate-based blockchains, providing a robust competence identification system for DAOs. **Target Audience:**  
+- The project enhances governance mechanisms in Substrate-based blockchains, providing a robust competence identification system for DAOs to assist DOT holders in identifying competent and contributing actors. 
+
+**Target Audience:**  
     
 - Parachain developers, app developers, governance researchers, and DAO participants.  
     
@@ -81,7 +87,7 @@
 
 **Similar Projects:**
 
-There are no similar projects in the Substrate/Polkadot/Kusama ecosystem. However, related ones in other ecosystems focus on decentralized governance and cryptographic voting systems. [Conviction voting](https://blog.giveth.io/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) is a similar concept, which we elaborate to state of *conviction election.*
+There are no similar projects in the Substrate/Polkadot/Kusama ecosystem. However, related projects in other ecosystems focus on decentralized governance and cryptographic voting systems. Our research regarding [Conviction voting](https://blog.giveth.io/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475) discusses the different aspects of governance processes for implementation to Polkadot. We review the ability for the participants to repeatedly demonstrate their conviction to the same proposal with its changing alternatives and context. This approach may be used to prioritize proposals for voting when origin capacity to process them is limited, and to reflect the conviction of fellowship members.
 
 ## Team :busts\_in\_silhouette:
 
@@ -158,7 +164,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0b.** | Documentation | We’ll provide a list of literature and latest developments |
 | **0c.** | Methodology | Literature review |
 | **0d.** | Infrastructure | We’ll provide a list of infrastructure requirements (text editors with proper versions, software packages, data packages, etc) to verify the milestone deliveries. |
-| **0e.** | Article | We’ll send an article part (with source code) explaining our findings on the DAO landscape. |
+| **0e.** | Article | We’ll send a part of an article (with source code) explaining our findings on the DAO landscape. |
 | **1\.** | Literature | We’ll search the literature on increasing participation rates and progressive decentralization and deliver a list of papers with web links. |
 | **2\.** | Introduction part for paper | A comprehensive report on the state of the industry. |
 | **3\.** | Data to be extracted from the papers | We will extract participation rates, turnover, centralization, and inequality metrics from papers and general sentiment about DAOs. |
@@ -175,7 +181,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0b.** | Documentation | Updated documentation for the refined research paper, including financial token models & analyzed trust flow. |
 | **0c.** | Methodology | Game theoretic and financial analysis. |
 | **0d.** | Infrastructure | We’ll provide the list of infrastructure requirements (text editors with proper versions, software packages, data packages, etc) to verify the deliveries with this milestone. |
-| **0e.** | Article | We’ll send an article part (with source code) explaining our proposed approach for multi-token system progressive decentralization in DAOs and its impact on participation rates. |
+| **0e.** | Article | We’ll send a part of an article (with source code) explaining our proposed approach for multi-token system progressive decentralization in DAOs and its impact on participation rates.|
 | **1\.** | Literature | We’ll systematically search the literature on increasing participation rates and progressive decentralization. Then, we will deliver a list of papers to read with web links. |
 | **2\.** | Introduction part for paper | A comprehensive report on the state of the industry. |
 | **3\.** | Data to be extracted from the papers | Participation rates, turnover, centralization and inequality metrics will be extracted from papers, as well as general sentiment about DAOs. |
@@ -189,23 +195,23 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | Number | Deliverable | Specification |
 | ----: | :---- | :---- |
 | **0a.** | Copyright and Licenses | CC BY 4.0 |
-| **0b.** | Documentation | Documentation of the data sources, analysis methods, and key findings from the Polkadot community survey. |
-| **0c.** | Methodology | Surveys. |
-| **0d.** | Infrastructure | We’ll provide the list of infrastructure requirements (text editors with proper versions, software packages, data packages, etc) to verify the milestone deliveries. |
-| **0e.** | Article | We’ll send an article part (with source code) explaining our findings on Polkadot community opinions about proposed token mechanisms. |
-| **1\.** | Survey Dataset | A comprehensive report analyzing the Polkadot DAO & Investor community, including DOT holders, active governance participants, DAO members, and vendor companies. This will involve Polkadot forum, Telegram groups, Twitter polls, and direct outreach to vendors and key opinion leaders. |
+| **0b.** | Documentation | Documentation of the data sources, analysis methods, and key findings from the research of the fellowship program. |
+| **0c.** | Methodology | Data gathering and analysis |
+| **0d.** | Infrastructure | We’ll provide the list of infrastructure requirements (text editors with proper versions, software packages, data packages, etc) to verify the milestone deliveries.|
+| **0e.** | Article | We’ll send a part of an article (with source code) explaining our findings on Polkadot community opinions about proposed token mechanisms.|
+| **1\.** | Analysis Methods | A comprehensive report analyzing the activity, turnover and growth of fellowship participants.|
 
 ## Future Plans
 
 - **Short-term:**  
     
-  - We plan to share our research findings through publications, conference presentations, and community engagement in the Polkadot ecosystem. We’ll seek feedback and collaborations to refine our work.  
+  - We plan to share our research findings through publications, conference presentations, and community engagement in the Polkadot ecosystem. We’ll seek feedback and collaborations to refine our work.
   - We’ll use this data to prepare the next step, the Polkadot DAO landscape metrics analysis, conducted separately to outline improvement metrics.
 
 
 - **Long-term:**  
     
-  - We aim to leverage this research to enhance DAO governance. We potentially developing open-source libraries or Substrate pallets that integrate our competence identification and ranking protocol. We envision contributing to a more secure, efficient, and participatory Web3 governance landscape.  
+  - We aim to leverage this research to enhance DAO governance and potentially develop open-source libraries or Substrate pallets that integrate our competence identification and ranking protocol. We envision contributing to a more secure, efficient, and participatory Web3 governance landscape.
   - We’ll propose implementation for the Polkadot ecosystem based on feedback and improvement metrics.
 
 ## Referral Program (optional) :moneybag:
